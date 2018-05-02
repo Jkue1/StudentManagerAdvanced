@@ -22,11 +22,11 @@ string student::fullName()
 void student::addGrade(double &num)
 {
     number = num;
-    total = total+number;
 }
 
 double student::getScore()
 {
+    total = total+number;
     return total;
 }
 
