@@ -19,18 +19,15 @@ string student::fullName()
     return name;
 }
 
-void student::addGrade(double &num)
+void student::addGrade(double num)
 {
     number = num;
+    total = total+number;
 }
 
 double student::getScore()
 {
-    double scored;
-    total = 0;
-    total = total+number;
-    scored = total;
-    return scored;
+    return total;
 }
 
 
