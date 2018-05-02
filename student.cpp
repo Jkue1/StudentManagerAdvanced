@@ -19,7 +19,17 @@ string student::fullName()
     return name;
 }
 
-void student::addGrade(int num)
+void student::addGrade(double num)
 {
-    num+
+    number = num;
+    total = total+number;
+}
+
+double student::getScore()
+{
+    double scored;
+    scored = total;
+    return scored;
+}
+
 

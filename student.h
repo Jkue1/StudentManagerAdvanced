@@ -10,12 +10,15 @@ class student
 {
     public:
     void setName(string,string);
-    void addGrade(int);
-    void getScore();
-    void fullName();
+    void addGrade(double);
+    double getScore();
+    string fullName();
+
     private:
-    string first;
-    string last;
+    string firstname;
+    string lastname;
+    double number;
+    double total;
 };
 
 #endif
