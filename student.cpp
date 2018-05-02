@@ -28,7 +28,7 @@ double student::getScore()
 {
     double scored;
     total = total+number;
-    scored = total-10;
+    scored = total+10;
     return scored;
 }
 
