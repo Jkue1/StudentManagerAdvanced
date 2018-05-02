@@ -19,7 +19,7 @@ string student::fullName()
     return name;
 }
 
-void student::addGrade(double num)
+void student::addGrade(double &num)
 {
     number = num;
     total = total+number;

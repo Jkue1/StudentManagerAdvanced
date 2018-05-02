@@ -10,7 +10,7 @@ class student
 {
     public:
     void setName(string,string);
-    void addGrade(double);
+    void addGrade(double&);
     double getScore();
     string fullName();
 
