@@ -27,8 +27,9 @@ void student::addGrade(double &num)
 double student::getScore()
 {
     double scored;
+    total = 0;
     total = total+number;
-    scored = total+10;
+    scored = total;
     return scored;
 }
 
