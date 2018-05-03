@@ -1,7 +1,7 @@
 #include "student.h"
 #include <string>
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 void student::setName(string first, string last)
@@ -21,9 +21,16 @@ string student::fullName()
 
 void student::addGrade(double num)
 {
+    
     number = num;
-    total = (total+number);
-
+    if (number != 0)
+    {
+    total = (total+number)/6;
+    }
+    else
+    {
+        total = 0;
+    }
 }
 
 double student::getScore()
