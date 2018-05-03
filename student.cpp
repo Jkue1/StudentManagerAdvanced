@@ -32,9 +32,10 @@ double student::getScore()
     {
         total = total+grid[i];
     }
-    
+    if ( grid.size() > 0)
+    {
     total = total/grid.size();
-    
+    }
     
     return total;
 }
