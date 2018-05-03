@@ -3,7 +3,7 @@
 #ifndef _STUDENT_H_
 #define _STUDENT_H_ 
 #include <string>
-
+#include <vector>
 using namespace std;
 
 class student
@@ -19,7 +19,7 @@ class student
     string lastname;
     double number;
     double total;
-  
+    vector<double> grid;  
 };
 
 #endif
