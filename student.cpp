@@ -22,14 +22,18 @@ string student::fullName()
 void student::addGrade(double num)
 {
     
-    number = num;
-   
-    total = (total+number)/6;
+    grid.push_back(num);
     
 }
 
 double student::getScore()
 {
+    double score=0.0;
+    for (int i=0; i < grid.size(); i++)
+    {
+        total = total+grid[i];
+    }
+    total = total/grid.size();
     return total;
 }
 
