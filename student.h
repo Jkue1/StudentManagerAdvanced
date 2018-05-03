@@ -18,7 +18,6 @@ class student
     string firstname;
     string lastname;
     double number;
-    double total;
     vector<double> grid;  
 };
 
