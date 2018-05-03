@@ -23,14 +23,9 @@ void student::addGrade(double num)
 {
     
     number = num;
-    if (number != 0)
-    {
+   
     total = (total+number)/6;
-    }
-    else
-    {
-        total = 0;
-    }
+    
 }
 
 double student::getScore()
