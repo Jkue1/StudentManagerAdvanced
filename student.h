@@ -19,6 +19,7 @@ class student
     string lastname;
     double number;
     double total;
+  
 };
 
 #endif
